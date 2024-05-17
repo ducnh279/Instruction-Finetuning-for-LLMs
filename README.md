@@ -1,6 +1,6 @@
 # Instruction Fine-tuning
 
-Supervised Instruction Finetuning (SFT) for Mistral 7B using Dolly-15K dataset
+Supervised Instruction Finetuning for Mistral 7B using Dolly-15K dataset
 
 ## Techniques
 
