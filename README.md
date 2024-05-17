@@ -1,9 +1,17 @@
 # Instruction Fine-tuning
-Instruction fine-tuning Mistral 7B on dolly-15K dataset
 
-# Techniques
-- LoRA (Low-Rank Adaptation): rank = 8, alpha = 16, dropout = 0.1
-- Quantization: 4-bit quantization
+Supervised Instruction Finetuning (SFT) for Mistral 7B using Dolly-15K dataset
+
+## Techniques
+
+- **LoRA (Low-Rank Adaptation)**: 
+  - Rank: 8
+  - Alpha: 16
+  - Dropout: 0.1
+
+- **Quantization**: 
+  - 4-bit quantization
   
-# Hardware
+## Hardware
+
 - A single GPU P100, equipped with 16GB of memory 
